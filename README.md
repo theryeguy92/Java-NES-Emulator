@@ -20,3 +20,19 @@ What made the NES groundbreaking was its simplicity and efficiency, which stemme
 
 4. **Memory**  
    The NES architecture includes 2KB of onboard RAM and 2KB of video RAM (VRAM). Cartridge-based games often expanded this with additional ROM and RAM, which was accessed through memory mapping techniques. The system also supports memory mirroring to optimize available space.
+
+
+   ## NES Architecture, Mapping, and Bus Functionality
+
+### 1. Mapping
+Memory mapping in the NES refers to the management of memory resources within the hardware. The NES utilizes a 16-bit address bus, allowing it to address up to 64KB of memory. However, the actual memory used in the system consists of RAM, ROM, and memory-mapped I/O registers.
+
+### 2. Bus Functionality
+The bus system serves as the connective infrastructure, or the "wiring," that enables communication between the CPU, PPU, memory, and APU. Here’s an overview of the bus components:
+
+- **Address Bus**  
+  The address bus is a 16-bit wide bus used by the CPU to specify the memory address it needs to read from or write to, allowing the CPU to directly access up to 64KB of memory. When executing instructions involving memory access, the CPU places the relevant address on the address bus. Devices like the PPU and APU also use the address bus to determine which registers or memory locations they can access.
+
+- **Data Bus**  
+  The data bus is an 8-bit wide bus used to transfer data between the CPU, memory, and other input/output devices. When the CPU reads from or writes to a memory location (or I/O register), the data is transferred via the data bus. It carries the actual value being read from or written to the address specified on the address bus.
+
