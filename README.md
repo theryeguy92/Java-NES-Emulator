@@ -36,3 +36,9 @@ The bus system serves as the connective infrastructure, or the "wiring," that en
 - **Data Bus**  
   The data bus is an 8-bit wide bus used to transfer data between the CPU, memory, and other input/output devices. When the CPU reads from or writes to a memory location (or I/O register), the data is transferred via the data bus. It carries the actual value being read from or written to the address specified on the address bus.
 
+  An illustration of the NES architecture can be found below.
+
+
+
+![image](https://github.com/user-attachments/assets/4556b037-e06e-4de4-91fd-f3109a1a3ecd)
+
