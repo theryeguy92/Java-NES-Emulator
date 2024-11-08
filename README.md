@@ -1,6 +1,8 @@
 # Java-NES-Emulator
 A NES Emulator made in Java. Final project for Principles in Software Engineering
 
+To play the emulator, run the java project nes_emul on your IDE and click File -> <path to your ROM> *Note, it only supports specific ROMs. Super Mario and Zelda will be able to work.
+
 # Nintendo Emulation: Overall Framework and Functionality
 
 The **Nintendo Entertainment System (NES)** was, and still is, an iconic console that set the foundation for future gaming systems. This project aims to emulate the NES using Java, showcasing how pattern designs can be employed for developing software for emulation purposes. The project operates at a low level, focusing on replicating the hardware of the system itself. By utilizing principles of emulation and the resources available to enthusiasts, this project allows the recreation and enjoyment of classic childhood games.
