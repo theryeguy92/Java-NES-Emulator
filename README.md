@@ -1,7 +1,7 @@
 # Java-NES-Emulator
 A NES Emulator made in Java. Final project for Principles in Software Engineering
 
-To play the emulator, run the java project nes_emul on your IDE and click File -> <path to your ROM> *Note, it only supports specific ROMs. Super Mario and Zelda will be able to work.
+To play the emulator, run the java project nes_emul on your IDE and click File -> "Path To Your Rom" *Note, it only supports specific ROMs. Super Mario and Zelda will be able to work.*
 
 # Nintendo Emulation: Overall Framework and Functionality
 
